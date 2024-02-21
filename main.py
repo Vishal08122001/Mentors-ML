@@ -1,9 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from model.model import main
-from pandas import DataFrame
 from fastapi.responses import Response
-import json
+
 
 app = FastAPI()
 
